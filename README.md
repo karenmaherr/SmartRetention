@@ -74,6 +74,7 @@ Features with zero importance in a first LightGBM fit are removed.
 | CatBoost | 2200 iterations, learning rate 0.04, depth 5, native categorical features |
 
 Final probability = (4 x LightGBM + 2 x XGBoost + 1 x CatBoost) / 7
+ROC-AUC=0.762
 
 ### Validation
 5-fold stratified cross-validation with out-of-fold predictions, so every customer is scored by a model that never saw them.
