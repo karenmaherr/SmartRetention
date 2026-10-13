@@ -80,7 +80,7 @@ Final probability = (4 x LightGBM + 2 x XGBoost + 1 x CatBoost) / 7
 
 | Metric | Value |
 |---|---|
-| Out-of-fold ROC-AUC (blend) | **0.7057** |
+| Out-of-fold ROC-AUC (blend) | **0.7062** |
 
 This is a moderate score. It is good for ranking customers and focusing a budget, and it is not meant for judging whether one particular customer will leave.
 
